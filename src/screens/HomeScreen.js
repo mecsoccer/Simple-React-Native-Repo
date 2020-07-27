@@ -11,7 +11,7 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Components Demo"
       />
       <TouchableOpacity onPress={() => navigation.navigate('List')}>
-        <Text>Go to ndds List Demo</Text>
+        <Text>Go to List Demo</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Image')}>
         <Text>Go to image screen</Text>
@@ -30,8 +30,8 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
-  }
+    fontSize: 30,
+  },
 });
 
 export default HomeScreen;
