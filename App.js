@@ -5,6 +5,9 @@ import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColourScreen from './src/screens/ColourScreen';
+import SquareScreen from './src/screens/SquareScreen';
+import TextScreen from './src/screens/TextScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 const navigator = createStackNavigator(
   {
@@ -13,12 +16,15 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     Counter: CounterScreen,
-    Color: ColourScreen
+    Color: ColourScreen,
+    Square: SquareScreen,
+    Text: TextScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: 'App'
+      title: 'Uruubi'
     }
   }
 );

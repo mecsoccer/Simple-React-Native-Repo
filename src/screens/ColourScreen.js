@@ -6,7 +6,7 @@ const ColourScreen = () => {
 
     return (
         <View>
-            <Button title="Add a color" onPress={() => {
+            <Button title="Add an color" onPress={() => {
                 setColors([...colors, randomRgb()])
             }} />
             <FlatList
